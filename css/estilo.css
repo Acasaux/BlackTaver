@@ -1,0 +1,619 @@
+/*---------------------------------------------INICIO DE INDEX-------------------------------------------------------*/
+/*Comandos globales*/
+*{
+	color: white;
+	font-family: 'Prata', serif;
+	padding: 0px;
+	margin: 0;
+}
+/*Fin comandos globales*/
+/*Tipografias*/
+@font-face{
+	font-family: "humble";
+	src: url("../assets/fonts/a.ttf");
+
+	font-family: "humble2";
+	src: url("../assets/fonts/Break.ttf");
+}
+/*fin de tipografias*/
+/*Fondos principales*/
+body{
+	background-image: url("../assets/Imagenes/a2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+footer{
+	background-color:black;
+	background-size:auto;
+}
+/*fin de fondos principales*/
+/*Fondos interactivos*/
+/*
+.Img__logo{
+	    position: relative;
+    	top: -28px;
+    	left: 705px;
+} imagen de logo*/
+
+/*Fin de fondos interactivos*/
+
+/*Navegador principal*/
+
+
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*
+.navegador-1 ul li{
+	display: inline-block;
+	padding: 35px;
+	font-size: 28px;
+	position: relative;
+    top: -5px;
+    left: 520px;
+	margin-top: -4px;
+    margin-bottom: 25px;
+
+}*/.navegador-1 {
+	
+	
+	font-size: 28px;
+
+	padding: 35px;
+	margin-top: -4px;
+    margin-bottom: 25px;
+
+    position: fixed;
+
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    
+    bottom: 875px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 0px;
+
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    
+    display: flex;
+    justify-content: space-between;
+    	
+}
+
+
+
+h1{
+	display: flex;
+	justify-content: center;
+	font-family: "humble";
+	font-size: 100px;
+	
+
+	margin-top: 100px;
+}
+
+.p__index{
+	display: flex;
+	
+	font-family: "humble";
+	font-size: 25px;
+	justify-content: center;
+	margin-top: 25px;
+	padding-top: 40px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+.p__ftc{
+	display: flex;
+	justify-content: center;
+}
+/*fin navegador principal*/
+
+
+/*Utilizando flex en los menus interactivos*/
+
+.MenuInteractivo_1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	
+}
+.MenuInteractivo_2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	
+	
+}
+
+.MenuInteractivo_1 figure a{
+	margin-right: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 22px;
+
+}
+.MenuInteractivo_2 figure a{
+	margin-right: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 22px;
+}
+
+.navegador-2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.navegador-2 figure a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+}
+/*fin de Utilizando flex en los menus interactivos*/
+
+/*footer*/
+footer{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__redes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.footer__logo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	
+	
+}
+/*fin de footer*/
+
+
+
+/*---------------------------------------------FIN DE INDEX-------------------------------------------------------*/
+
+/*---------------------------------------------INICIO BARES-------------------------------------------------------*/
+.navegador__bares {
+	
+	
+	font-size: 28px;
+
+	padding: 35px;
+	margin-top: -4px;
+    margin-bottom: 25px;
+
+    position: fixed;
+
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    
+    bottom: 875px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 0px;
+
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    
+    display: flex;
+    justify-content: space-between;
+    	
+}
+
+
+
+.Bar1 article p{
+	text-align: center;
+	font-size: 18px;
+}
+.Bar2 article p{
+	text-align: center;
+	font-size: 18px;
+}
+
+h3{
+
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 30px;
+}
+.Bar1 h4{
+
+	text-align: center;
+	font-size: 20px;
+}
+.Bar2 h4{
+
+	text-align: center;
+	font-size: 20px;
+}
+.map{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.h1__bares{
+	display: flex;
+	justify-content: center;
+	font-family: "humble";
+	font-size: 50px;
+	margin-top: 30px;
+
+}
+/*---------------------------------------------FIN DE BARES-------------------------------------------------------*/
+
+/*---------------------------------------------INICIO CONTACTO-------------------------------------------------------*/
+
+.Formulario{
+	
+ 	margin: 100px;
+ 	text-align: center;
+
+}
+
+.h1__contacto{
+	position: relative;
+	top: -60px;
+	font-family: "humble";
+	font-size: 40px;
+	text-align: center;
+}
+.form{
+	color: black;
+}
+input{
+	margin-bottom: 20px;
+	background-color: black;
+}
+/*---------------------------------------------FIN DE CONTACTO-------------------------------------------------------*/
+
+/*---------------------------------------------INICIO DE TRAGOS-------------------------------------------------------*/
+
+.h2__tragos{
+	display: flex;
+	justify-content: center;
+	
+	font-family: "humble";
+	font-size: 40px;
+	margin-top: 50px;
+	background-color: white;
+	color: black;
+}
+
+.reseña__tragos{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+	margin-bottom: 97px;
+
+}
+/*---------------------------------------------FIN DE TRAGOS-------------------------------------------------------*/
+
+/*---------------------------------------------INICIO DE CREA-------------------------------------------------------*/
+
+.p__crea {
+	position: relative;
+	top: -60px;
+	font-family: "humble";
+	font-size: 25px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.input__crea{
+	    width: 1910px;
+    	height: 150px;
+    }
+
+.botones__crea{
+	display: flex;
+	justify-content: space-evenly;
+}
+/*---------------------------------------------FIN DE CREA-------------------------------------------------------*/
+
+/*--------------------------------Inicio de implementacion de grid en INDEX------------------------------------------*/
+.grid__index{
+	display: grid;
+
+	grid-template-rows: 397px 763px -30px;
+}
+.presentacion{
+	margin-bottom: 15px;
+}	
+.footer{	
+	margin-top: 15px;
+}
+/*-----------------------------------Fin de implementacion de grid en INDEX--------------------------------------------------------*/
+
+/*------------------------Inicio de implementacion de grid en BARES----------------------------------------------*/
+.Bar1{
+	grid-area: Bar1;
+	
+}
+.Bar2{
+	grid-area: Bar2;
+	
+}
+.pais{
+	display: grid;
+	grid-template-areas: "Bar1" "Bar2";
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr;
+	
+}
+
+/*---------------------------Fin de implementacion de grid en TRAGOS------------------------------------------------*/
+
+
+/*--------------------------------------Principio de mediaquerie INDEX------------------------------------------*/
+
+/*vista mobile*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+			
+
+			.navegador-1 {
+			
+			
+				font-size: 15px;
+
+				padding: 37px;
+				margin-top: -4px;
+			    margin-bottom: 25px;
+
+			    position: fixed;
+
+			    right: 0px;
+			    left: 0px;
+			    top: 0px;
+			    
+			    bottom: 875px;
+			    margin-bottom: 0px;
+			    padding-top: 11px;
+			    padding-right:6px ;
+			    padding-left: 6px;
+			    margin-top: 0px;
+
+			    background-color: black;
+			    border-color: white;
+			    border-style: solid;
+			    
+			    display: flex;
+			    justify-content: space-between;
+		    	
+			}
+		.img__mobile{
+			height: 30px;
+			width: 30px;
+		}
+
+
+		h1{
+			display: flex;
+			justify-content: center;
+			font-family: "humble";
+			font-size: 65px;
+			
+			
+			margin-top: 70px;
+		}
+
+		.p__index{
+			display: flex;
+			
+			font-family: "humble";
+			font-size: 15px;
+			justify-content: center;
+			
+			padding-top:0px;
+			margin-left: 20px;
+			margin-right: 0px;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		.p__ftc{
+			display: flex;
+			justify-content: center;
+		}
+		/*fin navegador principal*/
+
+
+		/*Utilizando flex en los menus interactivos*/
+
+		.MenuInteractivo_1{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			
+			
+		}
+		.MenuInteractivo_2{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+				
+		}
+
+		.MenuInteractivo_1 figure a{
+			margin-right: 20px;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size: 22px;
+			margin-left: 18px;
+
+		}
+		.MenuInteractivo_2 figure a{
+			margin-right: 20px;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size: 22px;
+			margin-left: 18px;
+		}
+
+		.navegador-2{
+			display: none;
+
+		}
+		.navegador-2 figure a{
+			display: none;
+		}
+		/*fin de Utilizando flex en los menus interactivos*/
+
+		/*footer*/
+		footer{
+			display: flex;
+			flex-direction: row-reverse;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.footer__redes{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			
+		}
+
+		.footer__logo{
+			display: flex;
+			flex-direction: row;
+			flex-wrap:wrap;
+			
+			
+		}
+		/*fin de footer*/
+
+		.grid__index{
+			display: grid;
+
+			grid-template-rows: 397px 763px -30px;
+		}
+		.presentacion{
+			margin-bottom: 15px;
+		}	
+		.footer{	
+			margin-top: 15px;
+		}
+}
+
+/*vista mobile*/
+/*-------------------------------------------------Fin de mediaquerie INDEX----------------------------------------*/
+
+
+/*-------------------------------------------------Inicio de mediaquerie BARES--------------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+
+.navegador__bares{
+			
+			
+				font-size: 15px;
+
+				padding: 37px;
+				margin-top: -4px;
+			    margin-bottom: 25px;
+
+			    position: fixed;
+
+			    right: 0px;
+			    left: 0px;
+			    top: 0px;
+			    
+			    bottom: 1807px;
+			    margin-bottom: 0px;
+			    padding-top: 11px;
+			    padding-right:6px ;
+			    padding-left: 6px;
+			    margin-top: 0px;
+
+			    background-color: black;
+			    border-color: white;
+			    border-style: solid;
+			    
+			    display: flex;
+			    justify-content: space-between;
+		    	
+			}
+
+.Bar1 article p{
+	text-align: center;
+	font-size: 14px;
+}
+.Bar2 article p{
+	text-align: center;
+	font-size: 14px;
+}
+
+h3{
+
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.Bar1 h4{
+
+	text-align: center;
+	font-size: 20px;
+}
+.Bar2 h4{
+
+	text-align: center;
+	font-size: 20px;
+}
+.map{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.h1__bares{
+	display: flex;
+	justify-content: center;
+	font-family: "humble";
+	font-size: 25px;
+	margin-top: 30px;
+
+}
+
+.Bar1{
+	grid-area: Bar1;
+	
+}
+.Bar2{
+	grid-area: Bar2;
+	
+}
+.pais{
+	display: grid;
+	grid-template-areas: "Bar1" "Bar2";
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 100%;
+	
+}
+
+}
+/*------------------------------------------FIN de mediaquerie BARES-------------------------------------*/
