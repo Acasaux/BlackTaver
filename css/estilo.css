@@ -99,6 +99,8 @@ h1{
 	font-family: "humble";
 	font-size: 100px;
 	
+	padding-top: 30px;
+	padding-bottom: 30px;
 
 	margin-top: 100px;
 }
@@ -319,12 +321,8 @@ input{
 /*---------------------------------------------INICIO DE CREA-------------------------------------------------------*/
 
 .p__crea {
-	position: relative;
-	top: -60px;
-	font-family: "humble";
-	font-size: 25px;
-	text-align: center;
-	margin-top: 25px;
+	display: flex;
+	justify-content: center;
 }
 
 .input__crea{
@@ -618,3 +616,36 @@ h3{
 
 }
 /*------------------------------------------FIN de mediaquerie BARES-------------------------------------*/
+
+/*------------------------------------Inicio de Animaciones--------------------------------------------------*/
+@keyframes Titulo{
+ 0%{
+ 	width: 50%;
+ 	opacity: 0%;
+ }
+ 25%{
+ 	width: 60%;
+ 	opacity: 20%;
+ }
+ 50%{
+ 	width: 70%;
+ 	opacity: 40%;
+ }
+ 75%{
+ 	width: 80%;
+ 	opacity: 60%;
+ }
+ 100%{
+ 	width: 100%;
+ 	opacity: 100%;
+ }
+}
+.Titulo{
+	animation-name: Titulo;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+}
+
+/*------------------------------------Final de Animaciones--------------------------------------------------*/
