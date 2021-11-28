@@ -27,6 +27,7 @@ body{
 footer{
 	background-color:black;
 	background-size:auto;
+	background-image: linear-gradient( black, grey);
 }
 /*fin de fondos principales*/
 /*Fondos interactivos*/
