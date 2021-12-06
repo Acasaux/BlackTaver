@@ -142,3 +142,62 @@ footer{
 	animation-timing-function: linear;
 	animation-delay: 0s;
 }
+
+/*Inicio de Media queries index---------------------------------------------------------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	.navegador{
+		font-size: 15px;
+	}
+	h1{
+		font-size: 55px;
+		margin-top: 30px;
+	}
+	.p__index{
+		
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+		padding-top: 10px;
+	}
+	h2{
+		font-size: 28px;
+	}
+	.img__mobile{
+			height: 42px;
+			width: 42px;
+	}	
+
+
+	@keyframes Titulo{
+		 0%{
+		 	
+		 	opacity: 0%;
+		 }
+		 25%{
+		 	
+		 	opacity: 20%;
+		 }
+		 50%{
+		 	
+		 	opacity: 40%;
+		 }
+		 75%{
+		 	
+		 	opacity: 60%;
+		 }
+		 100%{
+		 	
+		 	opacity: 100%;
+		 }
+		}
+		.Titulo{
+			animation-name: Titulo;
+			animation-duration: 2s;
+			animation-iteration-count: 1;
+			animation-timing-function: linear;
+			animation-delay: 0s;
+		}
+
+
+
+}
