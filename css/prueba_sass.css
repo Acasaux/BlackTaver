@@ -1,0 +1,150 @@
+* {
+  color: white;
+  font-family: 'Prata', serif;
+  padding: 0px;
+  margin: 0px; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+/*Tipografias*/
+@font-face {
+  font-family: "humble";
+  src: url("../assets/fonts/a.ttf");
+  font-family: "humble2";
+  src: url("../assets/fonts/Break.ttf"); }
+
+body {
+  background-image: url("../assets/Imagenes/a2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+footer {
+  background-color: black;
+  background-size: auto;
+  background-image: linear-gradient(black, grey);
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "humble";
+  font-size: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px; }
+
+.navegador {
+  font-size: 25px; }
+
+.p__index {
+  display: flex;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 40px;
+  margin-left: 140px;
+  margin-right: 140px; }
+
+.p__ftc {
+  display: flex;
+  justify-content: center; }
+
+.navegador-2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.navegador-2 figure a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  color: white; }
+
+.MenuInteractivo_1 figure a {
+  margin-right: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.tecnicas {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid white 1px; }
+
+@keyframes Titulo {
+  0% {
+    width: 50%;
+    opacity: 0%; }
+  25% {
+    width: 60%;
+    opacity: 20%; }
+  50% {
+    width: 70%;
+    opacity: 40%; }
+  75% {
+    width: 80%;
+    opacity: 60%; }
+  100% {
+    width: 100%;
+    opacity: 100%; } }
+
+.Titulo {
+  animation-name: Titulo;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0s; }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .navegador {
+    font-size: 15px; }
+  h1 {
+    font-size: 55px;
+    margin-top: 30px; }
+  .p__index {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-top: 10px; }
+  h2 {
+    font-size: 28px; }
+  .img__mobile {
+    height: 42px;
+    width: 42px; }
+  @keyframes Titulo {
+    0% {
+      opacity: 0%; }
+    25% {
+      opacity: 20%; }
+    50% {
+      opacity: 40%; }
+    75% {
+      opacity: 60%; }
+    100% {
+      opacity: 100%; } }
+  .Titulo {
+    animation-name: Titulo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 0s; } }

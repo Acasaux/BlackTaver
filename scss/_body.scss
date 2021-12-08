@@ -1,0 +1,10 @@
+$centrado: center;
+
+
+
+body{
+	background-image: url("../assets/Imagenes/a2.jpg");
+	background-repeat: no-repeat;
+	background-position: $centrado;
+	background-size: cover;
+}

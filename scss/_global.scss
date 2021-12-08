@@ -1,0 +1,28 @@
+$blanco: white;
+$vacio: none;
+$cero: 0px;
+
+
+*{
+	color: $blanco;
+	font-family: 'Prata', serif;
+	padding: $cero;
+	margin: $cero;
+}
+
+ul{
+	list-style-type: $vacio;
+}
+a{
+	text-decoration: $vacio;
+}
+
+/*Tipografias*/
+
+@font-face{
+	font-family: "humble";
+	src: url("../assets/fonts/a.ttf");
+
+	font-family: "humble2";
+	src: url("../assets/fonts/Break.ttf");
+}

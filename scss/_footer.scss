@@ -1,0 +1,21 @@
+$negro: black;
+$gris: grey;
+$flex: flex;
+
+
+footer{
+	background-color:$negro;
+	background-size:auto;
+	background-image: linear-gradient( $negro, $gris);
+	display: $flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__logo{
+	display: $flex;
+	flex-direction: row;
+	flex-wrap:wrap;	
+}
