@@ -4,6 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Black Taver</title>
+	
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
 	<!-- familia prata -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +19,77 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Prata&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 	<!-- css -->
-	<link rel="stylesheet" href="../css/estilo.css">
+	<link rel="stylesheet" href="../css/prueba_sass.css">
 </head>
 <body>
 
 	<header>
-			<nav class="navegador__bares">
-		
-			<a href="../index.html">Inicio</a>	
-			<a href="Tragos.html">Tragos</a>	
-			<a href="TuBarEnCasa.html">TuBar</a>
-			<a href="../index.html"><img class="img__mobile" src="../assets/Imagenes/Logo transparente.png" height="42px" width="42px"></a>
-			<a href="Bares.html">Bares</a>	
-			<a href="Crea.html">Crea</a>
-			<a href="Contacto.html">Contacto</a>	
-			
-	
-		</nav>
-	
+			<nav class="navbar navbar-expand-lg navbar navbar-dark navegador ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index2.html"><img src="../assets/Imagenes/Logo transparente.png" height="42px" width="42px"></a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../Pages/Tragos.html">Tragos <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../Pages/TuBarEnCasa.html">Tu Bar <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../Pages/Bares.html">Bares <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../Pages/Crea.html">Crea <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../Pages/Contacto.html">Contacto <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busca un Trago</button>
+                  </form>
+                </div>
+              </nav>
 	</header>
-	<div class="presentacion__bares">
-		<h1 class="Titulo">Bares</h1>
-		<h1 class="h1__bares">Los Mejores Bares del mundo:</h1>
+	<div class="container-fluid">
+		<!-- Titulo Y introduccion -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="Titulo"><b>Bares</b></h1>
+          <p class="p__index">Sientanse bienvenidos en estos bares que son lo mejor de lo mejor.<br>Los conoceras en todas partes del mundo!</p>
+
+          <div class="p__ftc">
+          <h2><b>Feel the Cocktail</b></h2>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row">
+      	<div class="col-lg 10"></div>
+      	<div class="col-lg 2">
+      		<h3><B>Buenos Aires</B></h3>
+      		<h4><i>Verne club</i></h4>	
+				<Article>
+				<p>El bar esta inspirado en la obra de Julio Verne y tiene un estetica steampunk, oscuro, con sillones de cuero y jazz sonando de fondo.</p>
+				<p>El menu de cocteles tiene dos secciones especiales: La vuelta al mundo en 8 cocteles y El faro del fin del mundo donse se utilizan bebidas y productos argentinos y latinoamericanos. 
+				Su coctel emblema es el Opium Old Fashioned.
+				</p>
+				<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4849056472094!2d-58.42122488417528!3d-34.59189786438101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7e43cc2609%3A0x7c49313a722a74e7!2sVerne%20Club!5e0!3m2!1ses-419!2sar!4v1635733299338!5m2!1ses-419!2sar" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+					
+				</Article>
+      	</div>
+      	
+      </div>
 	</div>
-	<h3><B>Buenos Aires</B></h3>
+
+	
 		<section class="pais">
 			
 				
@@ -93,7 +146,8 @@
 		</footer>
 		<!-- Seguir agregando bares de mas partes del mundo -->
 		
-	
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>	
 </body>
 
 </html>
