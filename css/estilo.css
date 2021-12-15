@@ -230,7 +230,10 @@ footer{
 }
 
 
-
+.centrado{
+	text-align: center;
+	font-size: 18px;
+}
 .Bar1 article p{
 	text-align: center;
 	font-size: 18px;

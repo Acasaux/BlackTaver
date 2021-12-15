@@ -1,12 +1,17 @@
 $centrado: center;
 
-
+$fondo:(
+	posicion: center,
+	repeticion: no-repeat,
+	imagen: url("../assets/Imagenes/a2.jpg"),
+	tamaño: cover
+);
 
 body{
-	background-image: url("../assets/Imagenes/a2.jpg");
-	background-repeat: no-repeat;
-	background-position: $centrado;
-	background-size: cover;
+	background-image: map-get($fondo,imagen);
+	background-repeat: map-get($fondo,repeticion);
+	background-position: map-get($fondo,posicion);
+	background-size: map-get($fondo,tamaño);
 }
 
 .row{

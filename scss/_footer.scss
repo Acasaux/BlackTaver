@@ -1,21 +1,29 @@
 $negro: black;
-$gris: grey;
+$gris: #2A2A2A;
 $flex: flex;
 
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 footer{
+	@extend .flex;
+
 	background-color:$negro;
 	background-size:auto;
-	background-image: linear-gradient( $negro, $gris);
-	display: $flex;
+	background-image: linear-gradient( $negro, $negro);
+	
 	flex-direction: row-reverse;
-	flex-wrap: wrap;
+	
 	justify-content: space-between;
 	align-items: center;
+	border: solid white 1px;
 }
 
 .footer__logo{
-	display: $flex;
+	
+	@extend .flex;
+	
 	flex-direction: row;
-	flex-wrap:wrap;	
 }

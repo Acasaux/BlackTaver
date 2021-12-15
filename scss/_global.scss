@@ -13,9 +13,15 @@ $cero: 0px;
 ul{
 	list-style-type: $vacio;
 }
-a{
+a{	
 	text-decoration: $vacio;
+	color: $blanco;
 }
+a:-webkit-any-link{
+	text-decoration: $vacio;
+	color: $blanco;
+}
+
 
 /*Tipografias*/
 

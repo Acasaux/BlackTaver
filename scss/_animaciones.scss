@@ -1,27 +1,32 @@
+@mixin animacion($width, $opacity){
+    width: $width;
+    opacity: $opacity;
+}
 
 
 @keyframes Titulo{
  0%{
- 	width: 50%;
- 	opacity: 0%;
+    @include animacion(50% , 0%);
+ 	
  }
  25%{
- 	width: 60%;
- 	opacity: 20%;
+    @include animacion(60% , 20%);
+ 	
  }
  50%{
- 	width: 70%;
- 	opacity: 40%;
+    @include animacion(70% , 40%);
+ 	
  }
  75%{
- 	width: 80%;
- 	opacity: 60%;
+    @include animacion(80% , 60%);
+ 	
  }
  100%{
- 	width: 100%;
- 	opacity: 100%;
+    @include animacion(100% , 100%);
+ 	
  }
 }
+
 .Titulo{
 	animation-name: Titulo;
 	animation-duration: 1.2s;

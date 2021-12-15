@@ -35,13 +35,31 @@ h1{
 }
 .navegador-2{
 	margin-top: 20px;
+	margin-bottom: 100px;
 	display: $flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: $centrado;
+}
+.card-body {
+   
+    background: black;
+}
+.card-group{
+	
+    width: 1400px;
+    height: 466px;
 
 }
+.carta{
+	height: 200px;
+	width: 250px;
 
+}
+.carta_centrada{
+	display: flex;
+	justify-content: center;
+}
 .navegador-2{
 	figure{
 		a{
