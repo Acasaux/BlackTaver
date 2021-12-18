@@ -29,9 +29,9 @@ body {
   background-size: cover; }
 
 .row {
-  margin-right: 0px; }
+  margin: 0px; }
 
-.mb__menu1 {
+.carousel_mb {
   display: none; }
 
 .flex, footer, .footer__logo {
@@ -139,8 +139,6 @@ h1 {
   animation-delay: 0s; }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
-  .real {
-    display: none; }
   .navegador {
     font-size: 15px; }
   h1 {
@@ -153,30 +151,23 @@ h1 {
     padding-top: 10px; }
   h2 {
     font-size: 28px; }
-  .mb__menu1 {
-    display: block;
-    margin-top: 615px; }
+  .mb__temp {
+    display: none; }
   .img__mobile {
     height: 42px;
     width: 42px; }
   .footer__logo {
     padding-top: 5px; }
-  .mb_index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-  .mb__menu {
-    width: 110px;
-    height: 200px;
-    font-size: 10px; }
-  .mb__button {
-    font-size: 10px; }
-  .mb__card {
-    padding: 5px; }
-  .mb__menu1 {
-    margin-top: 615px; }
+  .carousel_dt {
+    display: none; }
+  .carousel_mb {
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .mb__p {
+    padding-top: 20px; }
   .mb__cf {
-    padding-right: 0px; }
+    padding: 0px; }
   @keyframes Titulo {
     0% {
       opacity: 0%; }
