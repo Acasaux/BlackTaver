@@ -1,0 +1,27 @@
+@media only screen and (min-width: 0px) and (max-width: 768px){
+
+	.centralizado{
+
+		flex-direction: column;
+		margin-left: 62px;
+	}
+
+	.Titulo{
+			text-align: center;
+		}
+
+	.mb__temp{
+		display: none;
+	}
+	.fondo{
+
+		background-color: black;
+		border: solid white 1px;
+	}
+	.barra{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+}
