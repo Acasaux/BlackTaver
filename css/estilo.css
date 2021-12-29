@@ -1,654 +1,269 @@
-/*---------------------------------------------INICIO DE INDEX-------------------------------------------------------*/
-/*Comandos globales*/
-*{
-	color: white;
-	font-family: 'Prata', serif;
-	padding: 0px;
-	margin: 0;
-}
-/*Fin comandos globales*/
+* {
+  color: white;
+  font-family: 'Prata', serif;
+  padding: 0px;
+  margin: 0px; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white; }
+
 /*Tipografias*/
-@font-face{
-	font-family: "humble";
-	src: url("../assets/fonts/a.ttf");
+@font-face {
+  font-family: "humble";
+  src: url("../assets/fonts/a.ttf");
+  font-family: "humble2";
+  src: url("../assets/fonts/Break.ttf"); }
 
-	font-family: "humble2";
-	src: url("../assets/fonts/Break.ttf");
-}
-/*fin de tipografias*/
-/*Fondos principales*/
-body{
-	background-image: url("../assets/Imagenes/a2.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
+body {
+  background-image: url("../assets/Imagenes/a2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
-footer{
-	background-color:black;
-	background-size:auto;
-	background-image: linear-gradient( black, grey);
-}
-/*fin de fondos principales*/
-/*Fondos interactivos*/
-/*
-.Img__logo{
-	    position: relative;
-    	top: -28px;
-    	left: 705px;
-} imagen de logo*/
+.row {
+  margin: 0px; }
 
-/*Fin de fondos interactivos*/
+.carousel_mb {
+  display: none; }
 
-/*Navegador principal*/
+.barra {
+  display: none; }
 
+.flex, footer, .footer__logo {
+  display: flex;
+  flex-wrap: wrap; }
 
-ul{
-	list-style-type: none;
-}
-a{
-	text-decoration: none;
-}
-/*
-.navegador-1 ul li{
-	display: inline-block;
-	padding: 35px;
-	font-size: 28px;
-	position: relative;
-    top: -5px;
-    left: 520px;
-	margin-top: -4px;
-    margin-bottom: 25px;
+footer {
+  background-color: black;
+  background-size: auto;
+  background-image: linear-gradient(black, black);
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  border: solid white 1px; }
 
-}*/.navegador-1 {
-	
-	
-	font-size: 28px;
+.footer__logo {
+  flex-direction: row; }
 
-	padding: 35px;
-	margin-top: -4px;
-    margin-bottom: 25px;
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "humble";
+  font-size: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px; }
 
-    position: fixed;
+.navegador {
+  font-size: 25px; }
 
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    
-    bottom: 875px;
-    margin-bottom: 0px;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-left: 40px;
+.p__index {
+  display: flex;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 40px;
+  margin-left: 140px;
+  margin-right: 140px; }
+
+.p__ftc {
+  display: flex;
+  justify-content: center; }
+
+.navegador-2 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.card-body {
+  background: black; }
+
+.card-group {
+  width: 1400px;
+  height: 466px; }
+
+.carta {
+  height: 200px;
+  width: 250px; }
+
+.carta_centrada {
+  display: flex;
+  justify-content: center; }
+
+.navegador-2 figure a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  color: white; }
+
+.MenuInteractivo_1 figure a {
+  margin-right: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+@keyframes Titulo {
+  0% {
+    width: 50%;
+    opacity: 0%; }
+  25% {
+    width: 60%;
+    opacity: 20%; }
+  50% {
+    width: 70%;
+    opacity: 40%; }
+  75% {
+    width: 80%;
+    opacity: 60%; }
+  100% {
+    width: 100%;
+    opacity: 100%; } }
+
+.Titulo {
+  animation-name: Titulo;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0s; }
+
+.centralizado {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px; }
+
+.titulo {
+  text-align: center; }
+
+.mb_temp {
+  margin-bottom: 20px; }
+
+.tecnicas {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid white 1px; }
+
+.centrado {
+  text-align: center;
+  font-size: 18px; }
+
+.bar {
+  background-color: black;
+  border: solid white 1px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.bares__mb {
+  display: none; }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .mb_footer {
+    padding-right: 15px; }
+  .navegador {
+    font-size: 15px; }
+  h1 {
+    font-size: 55px;
+    margin-top: 30px; }
+  .p__index {
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 0px;
+    padding-top: 10px; }
+  h2 {
+    font-size: 28px; }
+  .mb__temp {
+    display: none; }
+  .img__mobile {
+    height: 42px;
+    width: 42px; }
+  .footer__logo {
+    padding-top: 5px; }
+  .carousel_dt {
+    display: none; }
+  .carousel_mb {
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .mb__p {
+    padding-top: 20px; }
+  .mb__cf {
+    padding: 0px; }
+  @keyframes Titulo {
+    0% {
+      opacity: 0%; }
+    25% {
+      opacity: 20%; }
+    50% {
+      opacity: 40%; }
+    75% {
+      opacity: 60%; }
+    100% {
+      opacity: 100%; } }
+  .Titulo {
+    animation-name: Titulo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 0s; } }
 
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .centralizado {
+    flex-direction: column;
+    margin-left: 62px; }
+  .Titulo {
+    text-align: center; }
+  .mb__temp {
+    display: none; }
+  .fondo {
     background-color: black;
-    border-color: white;
-    border-style: solid;
-    
+    border: solid white 1px; }
+  .barra {
     display: flex;
-    justify-content: space-between;
-    	
-}
-
-
-
-h1{
-	display: flex;
-	justify-content: center;
-	font-family: "humble";
-	font-size: 100px;
-	
-	padding-top: 30px;
-	padding-bottom: 30px;
-
-	margin-top: 100px;
-}
-
-.p__index{
-	display: flex;
-	
-	font-family: "humble";
-	font-size: 25px;
-	justify-content: center;
-	margin-top: 25px;
-	padding-top: 40px;
-	margin-left: 140px;
-	margin-right: 140px;
-}
-.p__ftc{
-	display: flex;
-	justify-content: center;
-}
-/*fin navegador principal*/
-
-
-/*Utilizando flex en los menus interactivos*/
-
-.MenuInteractivo_1{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-	
-}
-.MenuInteractivo_2{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-	
-	
-}
-
-.MenuInteractivo_1 figure a{
-	margin-right: 20px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 22px;
-
-}
-.MenuInteractivo_2 figure a{
-	margin-right: 20px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 22px;
-}
-
-.navegador-2{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-
-}
-.navegador-2 figure a{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 25px;
-}
-/*fin de Utilizando flex en los menus interactivos*/
-
-/*footer*/
-footer{
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.footer__redes{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	
-}
-
-.footer__logo{
-	display: flex;
-	flex-direction: row;
-	flex-wrap:wrap;
-	
-	
-}
-/*fin de footer*/
-
-
-
-/*---------------------------------------------FIN DE INDEX-------------------------------------------------------*/
-
-/*---------------------------------------------INICIO BARES-------------------------------------------------------*/
-.navegador__bares {
-	
-	
-	font-size: 28px;
-
-	padding: 35px;
-	margin-top: -4px;
-    margin-bottom: 25px;
-
-    position: fixed;
-
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    
-    bottom: 875px;
-    margin-bottom: 0px;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-top: 0px;
-
-    background-color: black;
-    border-color: white;
-    border-style: solid;
-    
-    display: flex;
-    justify-content: space-between;
-    	
-}
-
-
-.centrado{
-	text-align: center;
-	font-size: 18px;
-}
-.Bar1 article p{
-	text-align: center;
-	font-size: 18px;
-}
-.Bar2 article p{
-	text-align: center;
-	font-size: 18px;
-}
-
-h3{
-
-	text-align: center;
-	font-size: 25px;
-	padding-bottom: 30px;
-}
-.Bar1 h4{
-
-	text-align: center;
-	font-size: 20px;
-}
-.Bar2 h4{
-
-	text-align: center;
-	font-size: 20px;
-}
-.map{
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-}
-.h1__bares{
-	display: flex;
-	justify-content: center;
-	font-family: "humble";
-	font-size: 50px;
-	margin-top: 30px;
-
-}
-/*---------------------------------------------FIN DE BARES-------------------------------------------------------*/
-
-/*---------------------------------------------INICIO CONTACTO-------------------------------------------------------*/
-
-.Formulario{
-	
- 	margin: 100px;
- 	text-align: center;
-
-}
-
-.h1__contacto{
-	position: relative;
-	top: -60px;
-	font-family: "humble";
-	font-size: 40px;
-	text-align: center;
-}
-.form{
-	color: black;
-}
-input{
-	margin-bottom: 20px;
-	background-color: black;
-}
-/*---------------------------------------------FIN DE CONTACTO-------------------------------------------------------*/
-
-/*---------------------------------------------INICIO DE TRAGOS-------------------------------------------------------*/
-
-.h2__tragos{
-	display: flex;
-	justify-content: center;
-	
-	font-family: "humble";
-	font-size: 40px;
-	margin-top: 50px;
-	background-color: white;
-	color: black;
-}
-
-.reseña__tragos{
-	display: flex;
-	justify-content: space-around;
-	margin: 30px;
-	margin-bottom: 97px;
-
-}
-/*---------------------------------------------FIN DE TRAGOS-------------------------------------------------------*/
-
-/*---------------------------------------------INICIO DE CREA-------------------------------------------------------*/
-
-.p__crea {
-	display: flex;
-	justify-content: center;
-}
-
-.input__crea{
-	    width: 1910px;
-    	height: 150px;
-    }
-
-.botones__crea{
-	display: flex;
-	justify-content: space-evenly;
-}
-/*---------------------------------------------FIN DE CREA-------------------------------------------------------*/
-
-/*--------------------------------Inicio de implementacion de grid en INDEX------------------------------------------*/
-.grid__index{
-	display: grid;
-
-	grid-template-rows: 397px 763px -30px;
-}
-.presentacion{
-	margin-bottom: 15px;
-}	
-.footer{	
-	margin-top: 15px;
-}
-/*-----------------------------------Fin de implementacion de grid en INDEX--------------------------------------------------------*/
-
-/*------------------------Inicio de implementacion de grid en BARES----------------------------------------------*/
-.Bar1{
-	grid-area: Bar1;
-	
-}
-.Bar2{
-	grid-area: Bar2;
-	
-}
-.pais{
-	display: grid;
-	grid-template-areas: "Bar1" "Bar2";
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr;
-	
-}
-
-/*---------------------------Fin de implementacion de grid en TRAGOS------------------------------------------------*/
-
-
-/*--------------------------------------Principio de mediaquerie INDEX------------------------------------------*/
-
-/*vista mobile*/
-@media only screen and (min-width: 0px) and (max-width: 768px){
-			
-
-			.navegador-1 {
-			
-			
-				font-size: 15px;
-
-				padding: 37px;
-				margin-top: -4px;
-			    margin-bottom: 25px;
-
-			    position: fixed;
-
-			    right: 0px;
-			    left: 0px;
-			    top: 0px;
-			    
-			    bottom: 875px;
-			    margin-bottom: 0px;
-			    padding-top: 11px;
-			    padding-right:6px ;
-			    padding-left: 6px;
-			    margin-top: 0px;
-
-			    background-color: black;
-			    border-color: white;
-			    border-style: solid;
-			    
-			    display: flex;
-			    justify-content: space-between;
-		    	
-			}
-		.img__mobile{
-			height: 30px;
-			width: 30px;
-		}
-
-
-		h1{
-			display: flex;
-			justify-content: center;
-			font-family: "humble";
-			font-size: 65px;
-			
-			
-			margin-top: 70px;
-		}
-
-		.p__index{
-			display: flex;
-			
-			font-family: "humble";
-			font-size: 15px;
-			justify-content: center;
-			
-			padding-top:0px;
-			margin-left: 20px;
-			margin-right: 0px;
-			margin-top: 25px;
-			margin-bottom: 25px;
-		}
-		.p__ftc{
-			display: flex;
-			justify-content: center;
-		}
-		/*fin navegador principal*/
-
-
-		/*Utilizando flex en los menus interactivos*/
-
-		.MenuInteractivo_1{
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: center;
-			
-			
-		}
-		.MenuInteractivo_2{
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: center;
-				
-		}
-
-		.MenuInteractivo_1 figure a{
-			margin-right: 20px;
-			font-family: 'Yanone Kaffeesatz', sans-serif;
-			font-size: 22px;
-			margin-left: 18px;
-
-		}
-		.MenuInteractivo_2 figure a{
-			margin-right: 20px;
-			font-family: 'Yanone Kaffeesatz', sans-serif;
-			font-size: 22px;
-			margin-left: 18px;
-		}
-
-		.navegador-2{
-			display: none;
-
-		}
-		.navegador-2 figure a{
-			display: none;
-		}
-		/*fin de Utilizando flex en los menus interactivos*/
-
-		/*footer*/
-		footer{
-			display: flex;
-			flex-direction: row-reverse;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			align-items: center;
-		}
-
-		.footer__redes{
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			
-		}
-
-		.footer__logo{
-			display: flex;
-			flex-direction: row;
-			flex-wrap:wrap;
-			
-			
-		}
-		/*fin de footer*/
-
-		.grid__index{
-			display: grid;
-
-			grid-template-rows: 397px 763px -30px;
-		}
-		.presentacion{
-			margin-bottom: 15px;
-		}	
-		.footer{	
-			margin-top: 15px;
-		}
-}
-
-/*vista mobile*/
-/*-------------------------------------------------Fin de mediaquerie INDEX----------------------------------------*/
-
-
-/*-------------------------------------------------Inicio de mediaquerie BARES--------------------------------*/
-@media only screen and (min-width: 0px) and (max-width: 768px){
-
-.navegador__bares{
-			
-			
-				font-size: 15px;
-
-				padding: 37px;
-				margin-top: -4px;
-			    margin-bottom: 25px;
-
-			    position: fixed;
-
-			    right: 0px;
-			    left: 0px;
-			    top: 0px;
-			    
-			    bottom: 1807px;
-			    margin-bottom: 0px;
-			    padding-top: 11px;
-			    padding-right:6px ;
-			    padding-left: 6px;
-			    margin-top: 0px;
-
-			    background-color: black;
-			    border-color: white;
-			    border-style: solid;
-			    
-			    display: flex;
-			    justify-content: space-between;
-		    	
-			}
-
-.Bar1 article p{
-	text-align: center;
-	font-size: 14px;
-}
-.Bar2 article p{
-	text-align: center;
-	font-size: 14px;
-}
-
-h3{
-
-	text-align: center;
-	font-size: 18px;
-	padding-bottom: 30px;
-}
-.Bar1 h4{
-
-	text-align: center;
-	font-size: 20px;
-}
-.Bar2 h4{
-
-	text-align: center;
-	font-size: 20px;
-}
-.map{
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-}
-.h1__bares{
-	display: flex;
-	justify-content: center;
-	font-family: "humble";
-	font-size: 25px;
-	margin-top: 30px;
-
-}
-
-.Bar1{
-	grid-area: Bar1;
-	
-}
-.Bar2{
-	grid-area: Bar2;
-	
-}
-.pais{
-	display: grid;
-	grid-template-areas: "Bar1" "Bar2";
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 100%;
-	
-}
-
-}
-/*------------------------------------------FIN de mediaquerie BARES-------------------------------------*/
-
-/*------------------------------------Inicio de Animaciones--------------------------------------------------*/
-@keyframes Titulo{
- 0%{
- 	width: 50%;
- 	opacity: 0%;
- }
- 25%{
- 	width: 60%;
- 	opacity: 20%;
- }
- 50%{
- 	width: 70%;
- 	opacity: 40%;
- }
- 75%{
- 	width: 80%;
- 	opacity: 60%;
- }
- 100%{
- 	width: 100%;
- 	opacity: 100%;
- }
-}
-.Titulo{
-	animation-name: Titulo;
-	animation-duration: 1.2s;
-	animation-iteration-count: 1;
-	animation-timing-function: linear;
-	animation-delay: 0s;
-}
-
-/*------------------------------------Final de Animaciones--------------------------------------------------*/
+    justify-content: center;
+    margin-bottom: 20px; } }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .bares__mb {
+    display: block; }
+  iframe {
+    display: none; } }
+
+.Formulario {
+  margin: 100px;
+  text-align: center; }
+
+.h1__contacto {
+  position: relative;
+  top: -60px;
+  font-family: "humble";
+  font-size: 40px;
+  text-align: center; }
+
+.form {
+  color: black; }
+
+input {
+  margin-bottom: 20px;
+  background-color: black; }
+
+.arreglo {
+  margin-bottom: 0px; }
+
+.grid_contacto {
+  display: grid;
+  grid-template-rows: 397px 763px -30px; }

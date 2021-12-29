@@ -1,0 +1,31 @@
+.Formulario{
+	
+ 	margin: 100px;
+ 	text-align: center;
+
+}
+
+.h1__contacto{
+	position: relative;
+	top: -60px;
+	font-family: "humble";
+	font-size: 40px;
+	text-align: center;
+}
+.form{
+	color: black;
+}
+input{
+	margin-bottom: 20px;
+	background-color: black;
+}
+
+.arreglo{
+	margin-bottom: 0px;
+}
+
+.grid_contacto{
+	display: grid;
+
+	grid-template-rows: 397px 763px -30px;
+}
